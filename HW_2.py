@@ -5,7 +5,7 @@ import streamlit as st
 transl = pipeline("translation", model="Helsinki-NLP/opus-mt-ru-en")
 
 # Заголовок веб-приложения
-st.title('Машинный перевод')
+st.title('Перевод текста')
 
 # Форма для ввода текста
 user_input = st.text_area("Введите текст на русском языке", "")
